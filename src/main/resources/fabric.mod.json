@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "scoreboardhider",
+    "version": "${version}",
+    "name": "ScoreboardHider",
+    "description": "A server-side mod to hide the scoreboard for individual players",
+    "authors": ["monnocat"],
+    "contact": {
+        "homepage": "https://github.com/monnocat/ScoreboardHider",
+        "issues": "https://github.com/monnocat/ScoreboardHider/issues",
+        "sources": "https://github.com/monnocat/ScoreboardHider"
+    },
+    "license": "MIT",
+    "icon": "assets/scoreboardhider/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["dev.monnocat.ScoreboardHider"]
+    },
+    "mixins": ["scoreboardhider.mixins.json"],
+    "depends": {
+        "fabricloader": "*",
+        "minecraft": ">=26.1-",
+        "java": ">=25",
+        "fabric-api": "*"
+    }
+}
