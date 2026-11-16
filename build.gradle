@@ -47,7 +47,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"template" {
+		"scoreboardhider" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
